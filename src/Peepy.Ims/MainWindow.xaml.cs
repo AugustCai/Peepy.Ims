@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Peepy.Ims.Domain;
+using Peepy.Ims.Domain.IService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,8 +22,11 @@ namespace Peepy.Ims
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly IUserService _userService;
+        public MainWindow(IUserService userService)
         {
+            _userService = userService;
+            //_userService.CreateDb();
             InitializeComponent();
         }
     }
