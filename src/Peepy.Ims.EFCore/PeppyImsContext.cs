@@ -2,6 +2,7 @@
 using Peepy.Ims.EFCore.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace Peepy.Ims.EFCore
@@ -12,7 +13,9 @@ namespace Peepy.Ims.EFCore
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=Peepy.Ims.db");
+            var file = Path.Combine("PeepyIms.db");
+            file = Path.GetFullPath(file);
+            optionsBuilder.UseSqlite($"Filename={file}");
         }
     }
 

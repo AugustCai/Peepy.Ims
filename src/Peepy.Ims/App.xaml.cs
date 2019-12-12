@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Peepy.Ims.EFCore;
 using System.Windows;
 
 namespace Peepy.Ims
@@ -27,6 +28,7 @@ namespace Peepy.Ims
         {
             services.AddServiceRegistry();
             services.AddSingleton<MainWindow>();
+            services.AddDbContext<PeppyImsContext>();
         }
     }
 }

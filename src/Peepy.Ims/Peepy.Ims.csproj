@@ -18,4 +18,10 @@
     <ProjectReference Include="..\Peepy.Ims.Domain\Peepy.Ims.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="PeepyIms.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
