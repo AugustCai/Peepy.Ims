@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13525B69-FA1B-4D96-8742-1CD35E3DF1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peepy.Ims", "src\Peepy.Ims\Peepy.Ims.csproj", "{CD80BCF0-83CF-452D-8862-8A6F519F8546}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Peepy.Ims.Setup", "src\Peepy.Ims.Setup\Peepy.Ims.Setup.vdproj", "{AAE509D0-EE0B-46D1-A0E2-1121631E2D07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD80BCF0-83CF-452D-8862-8A6F519F8546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD80BCF0-83CF-452D-8862-8A6F519F8546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD80BCF0-83CF-452D-8862-8A6F519F8546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD80BCF0-83CF-452D-8862-8A6F519F8546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE509D0-EE0B-46D1-A0E2-1121631E2D07}.Debug|Any CPU.ActiveCfg = Debug
+		{AAE509D0-EE0B-46D1-A0E2-1121631E2D07}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD80BCF0-83CF-452D-8862-8A6F519F8546} = {13525B69-FA1B-4D96-8742-1CD35E3DF1A3}
+		{AAE509D0-EE0B-46D1-A0E2-1121631E2D07} = {13525B69-FA1B-4D96-8742-1CD35E3DF1A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C44DCB8E-DA8F-49CC-A917-6D8527C4E670}
+	EndGlobalSection
+EndGlobal
