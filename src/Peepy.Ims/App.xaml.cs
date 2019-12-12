@@ -1,6 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Peepy.Ims.Domain.IService;
-using Peepy.Ims.Domain.Service;
 using System.Windows;
 
 namespace Peepy.Ims
@@ -8,7 +6,7 @@ namespace Peepy.Ims
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App : System.Windows.Application
     {
         private readonly ServiceProvider _serviceProvider;
 
@@ -27,7 +25,7 @@ namespace Peepy.Ims
         }
         private void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IUserService>(provider => new UserService());
+            services.AddServiceRegistry();
             services.AddSingleton<MainWindow>();
         }
     }
