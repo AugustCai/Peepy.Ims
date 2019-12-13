@@ -1,9 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Peepy.Ims.Application;
 using Peepy.Ims.Domain;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Peepy.Ims
 {
