@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13525B69-FA1B-4D96-8742-1CD35E3DF1A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peepy.Ims", "src\Peepy.Ims\Peepy.Ims.csproj", "{CD80BCF0-83CF-452D-8862-8A6F519F8546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peepy.Ims", "src\Peepy.Ims\Peepy.Ims.csproj", "{CD80BCF0-83CF-452D-8862-8A6F519F8546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peepy.Ims.Domain", "src\Peepy.Ims.Domain\Peepy.Ims.Domain.csproj", "{B1519257-649A-4666-B338-90121EBB178B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peepy.Ims.Domain", "src\Peepy.Ims.Domain\Peepy.Ims.Domain.csproj", "{B1519257-649A-4666-B338-90121EBB178B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peepy.Ims.Common", "src\Peepy.Ims.Common\Peepy.Ims.Common.csproj", "{4B67B698-0110-4EB1-8FB0-3DD8A04B9A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peepy.Ims.Common", "src\Peepy.Ims.Common\Peepy.Ims.Common.csproj", "{4B67B698-0110-4EB1-8FB0-3DD8A04B9A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peepy.Ims.EFCore", "src\Peepy.Ims.EFCore\Peepy.Ims.EFCore.csproj", "{276981A6-1326-4788-A6C8-B85732B624D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peepy.Ims.EFCore", "src\Peepy.Ims.EFCore\Peepy.Ims.EFCore.csproj", "{276981A6-1326-4788-A6C8-B85732B624D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "setup", "setup", "{8FD48309-67BE-440F-9B5F-0A57742B3AE9}"
 EndProject

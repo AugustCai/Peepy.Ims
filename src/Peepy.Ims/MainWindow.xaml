@@ -1,12 +1,26 @@
-﻿<Window x:Class="Peepy.Ims.MainWindow"
+﻿<controls:MetroWindow x:Class="Peepy.Ims.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Peepy.Ims"
+        Title="MahApps.Metro.Sample"
+        WindowStartupLocation="CenterScreen"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="450" Width="800">
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <Button Content="帮助" Click="Button_Click" />
+            <Button>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="4 0 0 0" VerticalAlignment="Center" Text="设置" />
+                </StackPanel>
+            </Button>
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
     <Grid>
-
+        <Button Style="{DynamicResource MetroCircleButtonStyle}" Content="Button" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,46,0,0" Height="49" Width="71" />
     </Grid>
-</Window>
+</controls:MetroWindow>
